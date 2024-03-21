@@ -25,7 +25,7 @@ loginserver.use(express.json())
 // use router
 loginserver.use(router)
 
-// loginserver.use('/fileuploads',express.static('./fileuploads'))
+loginserver.use('/fileuploads',express.static('./fileuploads'))
 
 
 // port
